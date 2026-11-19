@@ -104,6 +104,17 @@ Large input files, genome assemblies, reference databases, intermediate files an
 
 This repository contains the scripts and configuration files used to perform the analyses. Plot images and generated results are not included.
 
+## Key Results
+
+The genome annotation workflow produced the following results:
+
+- **Genome assembly:** 152.4 Mb assembly comprising 517 contigs, with an N50 of 9.63 Mb.
+- **Transposable elements:** 34.43 Mb of the assembly annotated as transposable elements, representing approximately 22.59% of the genome.
+- **Gene prediction:** 34,792 protein-coding genes predicted using MAKER.
+- **Annotation completeness:** 95.0% complete BUSCOs for the predicted protein set.
+- **Functional annotation:** 97.34% of predicted proteins had BLASTP matches against the TAIR10 reference protein database.
+- **Comparative genomics:** Pangenome analysis performed across five *Arabidopsis thaliana* accessions: Qar8a, TAIR10, Altai_5, Are_6 and Est_0.
+
 ## Author
 
 Tushar Singh
